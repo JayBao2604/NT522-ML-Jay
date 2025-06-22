@@ -200,13 +200,6 @@ python extract_attention.py \
 | CWE-399 | Resource Management | Memory/resource leaks             |
 | CWE-416 | Use After Free      | Accessing freed memory            |
 
-## 🧪 Experimental Results
-
-Our enhanced implementation achieves:
-- **📈 92.5% Attack Success Rate** (vs 87.3% original)
-- **⚡ 40% Faster FGA Convergence** through optimized selection
-- **🎯 95.2% Model Accuracy** on clean samples
-- **📊 85.7% Attention Score Correlation** with human experts
 
 ## 📚 Research Paper Implementation
 
@@ -257,16 +250,6 @@ ATTACK_CONFIG = {
 }
 ```
 
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is for **research and educational purposes only**. Not for commercial use.
@@ -279,16 +262,5 @@ Based on the original EatVul paper (USENIX Security '24) - see [original reposit
 - **UIT Faculty** for guidance and support
 - **USENIX Security '24** for publishing the original paper
 - **Microsoft & Salesforce** for pre-trained models (CodeBERT, CodeT5)
-
-## 📞 Contact
-
-For questions about this implementation:
-- **Course Instructor**: [Contact through UIT channels]
-- **Team Lead**: Trần Gia Bảo (22520119)
-- **Project Repository**: [GitHub Link]
-
----
-
-**⭐ If you find this project useful, please give it a star!**
 
 *This project was developed as part of the NT522.P21.ANTT Machine Learning for Information Security course at University of Information Technology (UIT).* 
