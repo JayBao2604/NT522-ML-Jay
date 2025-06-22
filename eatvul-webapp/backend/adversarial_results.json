@@ -1,0 +1,19 @@
+{
+  "best_adversarial_code": "// This is a harmless comment that might confuse the model",
+  "best_fitness": 0.0,
+  "attack_success_rate": 0.0,
+  "original_f1_score": 0.0,
+  "original_accuracy": 0.0,
+  "original_precision": 0.0,
+  "original_recall": 0.0,
+  "parameters": {
+    "pop_size": 10,
+    "clusters": 2,
+    "max_generations": 1,
+    "decay_rate": 1.0,
+    "alpha": 1.5,
+    "penalty": 0.02
+  },
+  "adversarial_predictions_file": "F:\\NT522-Project\\eatvul-webapp\\backend\\prediction_adv_cwe_2025-06-04_04-17-25.txt",
+  "vulnerable_to_benign_changes": 0
+}

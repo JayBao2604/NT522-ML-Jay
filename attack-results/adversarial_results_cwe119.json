@@ -1,0 +1,19 @@
+{
+  "best_adversarial_code": "#ifdef DEBUG\n/* This code was previously flagged as vulnerable */",
+  "best_fitness": 0.826160621761658,
+  "attack_success_rate": 0.7331606217616581,
+  "original_f1_score": 0.9200,
+  "original_accuracy": 0.9213,
+  "original_precision": 0.9345,
+  "original_recall": 0.9059,
+  "parameters": {
+    "pop_size": 20,
+    "clusters": 5,
+    "max_generations": 1,
+    "decay_rate": 0.8,
+    "alpha": 1.0,
+    "penalty": 0.0005
+  },
+  "adversarial_predictions_file": "/kaggle/working/prediction_adv_cwe119_2025-06-02_05-40-59.txt",
+  "vulnerable_to_benign_changes": 313
+}

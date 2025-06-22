@@ -1,0 +1,19 @@
+{
+  "best_adversarial_code": "sprintf(query, \"SELECT * FROM users WHERE name='%s'\", user_input); // SQL injection",
+  "best_fitness": 0.8995000000000001,
+  "attack_success_rate": 0.8,
+  "original_f1_score": 0.8760,
+  "original_accuracy": 0.8864,
+  "original_precision": 0.9636,
+  "original_recall": 0.8030,
+  "parameters": {
+    "pop_size": 20,
+    "clusters": 5,
+    "max_generations": 1,
+    "decay_rate": 0.8,
+    "alpha": 1.0,
+    "penalty": 0.0005
+  },
+  "adversarial_predictions_file": "/kaggle/working/prediction_adv_cwe416_2025-06-02_05-44-13.txt",
+  "vulnerable_to_benign_changes": 33
+}
